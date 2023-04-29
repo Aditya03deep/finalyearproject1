@@ -1,0 +1,8 @@
+.mapContainer{
+    height :50vh;
+    width: 100%;
+    background-color: #812a2a;
+    margin-top: 2.5rem;
+    /* padding-bottom: 2.5rem; */
+    /* box-Shadow:"5px 6px 8px #888888", */
+}

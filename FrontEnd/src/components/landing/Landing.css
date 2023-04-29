@@ -1,0 +1,211 @@
+
+  .landing-page-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-container {
+    flex: 1;
+    padding: 40px;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 1px 2px 3px darkgrey;
+  }
+  .cta-button:hover{
+    background-color: #0a304e;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+  }
+  .button-container {
+    display: flex;
+  }
+  
+  .recommendation-button,
+  .budget-calculator-button {
+    flex: 1;
+    background-color:  #242424c4;
+    color: #e0d8d8;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 1px 1px 2px grey;
+  }
+  .recommendation-button:hover{
+    background-color: #0a304e;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+  }
+  .budget-calculator-button:hover{
+    background-color: #0a304e;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+  }
+  .right-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    height: 95vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://images.pexels.com/photos/4553618/pexels-photo-4553618.jpeg'); /* Replace with your actual image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .lnavbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #242424ce;
+  }
+  
+  .social-media-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+    
+
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #f8f8f8;
+  text-align: center;
+ 
+  }
+  
+  @media screen and (max-width: 700px) {
+    .landing-page-container {
+    flex-direction: column;
+    }
+    
+    .left-container {
+    padding: 20px;
+    background-image: linear-gradient(rgba(254, 180, 32, 0.892),#f8f8f8)
+    }
+    
+    .title {
+    font-size: 36px;
+    }
+    
+    .description {
+    font-size: 16px;
+    }
+    
+    .button-container {
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .recommendation-button,
+    .budget-calculator-button {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    }
+    
+    .lnavbar {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #242424ce;
+    }
+    
+    .social-media-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+    }
+    
+    .right-container {
+    flex: 1;
+    position: relative;
+    }
+    
+    .background-image {
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url('https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    background-position: center;
+    }
+    
+    .cta-button,
+    .recommendation-button,
+    .budget-calculator-button {
+    font-size: 16px;
+    padding: 10px;
+    box-shadow: 1px 1px 2px grey;
+    }
+    
+    .cta-button {
+    padding: 10px 20px;
+    }
+    
+    .cta-button:hover,
+    .recommendation-button:hover,
+    .budget-calculator-button:hover {
+    background-color: #0a304e;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+    }
+    
+    .footer {
+    position: relative;
+    padding: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+    }
+    }

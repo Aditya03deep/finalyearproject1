@@ -1,0 +1,302 @@
+
+  .recmd{
+     height: auto;
+     width: 100%;
+     background: linear-gradient(
+      #FFAFBD,
+      #ffc3a0
+     
+    );
+    backdrop-filter: blur(4px);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+     
+  }
+  .recmdd{
+    height: 600px;
+     width: 80%;
+     background-image: linear-gradient(#F7971E, #FFD200);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 2px 3px 5px rgb(122, 54, 20);
+     border-radius: 50px;
+  }
+ h2{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+  }
+  .ul{
+    list-style: none;
+    
+  }
+  li{
+    list-style: none;
+    padding: 1.5rem;
+  }
+  .ans{
+    height: 5rem;
+    width: 15rem;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    border: none;
+    box-shadow: 2px 2px 4px grey;
+  }
+  .ans:hover{
+   background-color: #ff5f6d;
+   color: aliceblue;
+   transition: 0.3s ease-in-out;
+  }
+  h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(28, 26, 26);
+  }
+  .refresh{
+    height: 5rem;
+    width: 10rem;
+    background: linear-gradient(#a73737, #7a2828);
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 2px 2px #232526;
+    
+  }
+  .refresh:hover{
+    background: linear-gradient(#ff7e5f, #feb47b); 
+  }
+  .recmi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .recmi h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #242424;
+  }
+  .recmi p{
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  .rmcon{
+    /* background-color: red; */
+    background: linear-gradient(#ebe5e5, #f0eaea);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 95%;
+    box-shadow: 3px 3px 7px rgb(0, 0, 0);
+
+  }
+  .rconl{
+    height: 100%;
+    width: 50%;
+    background: linear-gradient(#ebe5e5, #f0eaea);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem;
+  
+   
+  }
+  .rd{
+   
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ri{
+    background-color: rgb(162, 249, 255);
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 2px 2px 2px grey;
+    padding: 0.5rem;
+  }
+  .rd p{
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .rd .rhb{
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+  
+  
+  .rconr{
+    padding: 0.5rem;
+    
+    height: 700px;
+    width: 50%;
+    
+    
+  }
+  img{
+    height: 100%;
+    width: 100%; 
+  }
+  .random{
+    height: 99%;
+    width: 100%;
+    border: 2px solid black;
+    background: linear-gradient(#44A08D, #093637);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .random li{
+    height: 100%;
+    width: 20.6%;
+    border: 2px solid black;
+  }
+  .picc{
+    height: 100%;
+    width: 100%;
+  }
+.rconl p{
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .recmd {
+    height: auto;
+    min-height: 100vh;
+    
+  }
+  
+  .recmdd {
+    height: auto;
+    width: 80%;
+    border-radius: 0;
+    box-shadow: 2px 2px 3px #242424;
+    margin: 2rem 0;
+  }
+  .recmi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  .recmi h3{
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .recmi p{
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+  .recmdd{
+    padding: 1rem;
+  }
+  .recmdd h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+
+  }
+  .rconr{
+    padding: 0.5rem;
+    
+    height: auto;
+    width: 50%;
+    
+    
+  }
+  
+  .ul li {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .ans {
+    height: 3.5rem;
+    width: 10rem;
+    border-radius: 15px;
+    font-size: 1rem;
+  }
+  
+  h3 {
+    font-size: 1rem;
+  }
+ 
+  .refresh {
+    height: 2.5rem;
+    width: 7rem;
+    border-radius: 0;
+    
+  }
+  .refresh span{
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  
+  .rmcon {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    box-shadow: none;
+  }
+  
+  .rconl {
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    justify-content: center;
+  }
+  
+  .rconr {
+    height: auto;
+    width: 100%;
+  }
+  .ri{
+    height: auto;
+    background-color: rgb(162, 249, 255);
+    height: 80%;
+    padding: 1rem;
+    
+  }
+  .ri p{
+    font-weight: 400;
+  }
+  .rd p{
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  .rd .rhb{
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  .rd{
+    height: auto;
+    padding: 5px;
+  }
+  
+  .random li {
+    height: 80px;
+    width: 25%;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+  }
+  
+  .picc {
+    height:70px;
+    width: 70px;
+  }
+  
+  .rconl p {
+    font-size: 0.8rem;
+  }
+}
